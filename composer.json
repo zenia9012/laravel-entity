@@ -9,7 +9,7 @@
             "homepage": "https://www.facebook.com/Riabyi"
         }
     ],
-    "homepage": "https://github.com/yevhenii/laravelentity",
+    "homepage": "https://github.com/zenia9012/laravel-entity",
     "keywords": ["Laravel", "laravelEntity"],
     "require": {
         "illuminate/support": "~5"
