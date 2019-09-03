@@ -1,0 +1,11 @@
+<?php
+
+namespace DummyNamespace;
+
+use App\Model\DummyModel;
+
+class DummyClass {
+
+    protected $model = DummyModel::class;
+
+}

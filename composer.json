@@ -1,0 +1,43 @@
+{
+    "name": "yevhenii/Laravelentity",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "author name",
+            "email": "author email",
+            "homepage": "author homepage"
+        }
+    ],
+    "homepage": "https://github.com/yevhenii/laravelentity",
+    "keywords": ["Laravel", "laravelEntity"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yevhenii\\LaravelEntity\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "yevhenii\\LaravelEntity\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "yevhenii\\LaravelEntity\\LaravelEntityServiceProvider"
+            ],
+            "aliases": {
+                "laravelEntity": "yevhenii\\LaravelEntity\\Facades\\LaravelEntity"
+            }
+        }
+    }
+}
