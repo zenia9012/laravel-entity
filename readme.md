@@ -12,7 +12,7 @@ This is where your description should go. Take a look at [contributing.md](contr
 Via Composer
 
 ``` bash
-$ composer require yevhenii/laravelentity
+$ composer require yevhenii/laravel-entity
 ```
 
 ## Usage
