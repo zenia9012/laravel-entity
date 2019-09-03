@@ -1,12 +1,12 @@
 {
     "name": "yevhenii/laravel-entity",
-    "description": ":description",
+    "description": "This package add useful commands to Laravel project, commands like creating repository, and creating all in one time controller, model, repository, migration",
     "license": "MIT",
     "authors": [
         {
-            "name": "author name",
-            "email": "author email",
-            "homepage": "author homepage"
+            "name": "Yevhenii Riabyi",
+            "email": "zenia9012@gmail.com",
+            "homepage": "https://www.facebook.com/Riabyi"
         }
     ],
     "homepage": "https://github.com/yevhenii/laravelentity",
