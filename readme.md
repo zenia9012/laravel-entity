@@ -12,7 +12,7 @@ This is where your description should go. Take a look at [contributing.md](contr
 Via Composer
 
 ``` bash
-$ composer require yevhenii/laravelentitynew
+$ composer require yevhenii/laravelentity
 ```
 
 ## Usage
@@ -44,14 +44,14 @@ If you discover any security related issues, please email author email instead o
 
 license. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/yevhenii/laravelentitynew.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/yevhenii/laravelentitynew.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/yevhenii/laravelentitynew/master.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/yevhenii/laravelentity.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/yevhenii/laravelentity.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/yevhenii/laravelentity/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/yevhenii/laravelentitynew
-[link-downloads]: https://packagist.org/packages/yevhenii/laravelentitynew
-[link-travis]: https://travis-ci.org/yevhenii/laravelentitynew
+[link-packagist]: https://packagist.org/packages/yevhenii/laravelentity
+[link-downloads]: https://packagist.org/packages/yevhenii/laravelentity
+[link-travis]: https://travis-ci.org/yevhenii/laravelentity
 [link-styleci]: https://styleci.io/repos/12345678
 [link-author]: https://github.com/yevhenii
 [link-contributors]: ../../contributors
