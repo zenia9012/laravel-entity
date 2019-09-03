@@ -1,7 +1,7 @@
 {
     "name": "yevhenii/laravel-entity",
     "description": ":description",
-    "license": "license",
+    "license": "MIT",
     "authors": [
         {
             "name": "author name",
