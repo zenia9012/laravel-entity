@@ -3,6 +3,7 @@
     "description": "This package add useful commands to Laravel project, commands like creating repository, and creating all in one time controller, model, repository, migration",
     "license": "MIT",
     "version": "1.1.3-p",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Yevhenii Riabyi",
