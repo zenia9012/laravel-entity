@@ -4,7 +4,6 @@ namespace Yevhenii\LaravelEntity\Commands;
 
 use Illuminate\Support\Str;
 use Illuminate\Console\Command;
-use Illuminate\Console\GeneratorCommand;
 
 /**
  * List all locally installed packages.
@@ -18,7 +17,7 @@ class CreateEntity extends Command {
      *
      * @var string
      */
-    protected $signature = 'entity {name}';
+    protected $signature = 'entity {name : name of entity} {--all : create also factory and seed}';
 
     /**
      * The console command description.
@@ -34,6 +33,11 @@ class CreateEntity extends Command {
         $this->call('make:model', ['name' => 'Model\\' . $name]);
         $this->call('make:controller', ['name' => $name . 'Controller']);
         $this->call('make:migration', ['name' => 'create' . '' . Str::plural($name) . '_table']);
+
+        if ($this->option('all')){
+            $this->call('make:factory', ['name' => $name . 'Factory']);
+            $this->call('make:seed', ['name' => Str::plural($name) . 'TableSeeder']);
+        }
     }
 
     /**

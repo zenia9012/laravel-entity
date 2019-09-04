@@ -1,8 +1,6 @@
 # laravelEntity
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
-[![Build Status][ico-travis]][link-travis]
 
 This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
 
@@ -16,15 +14,50 @@ $ composer require yevhenii/laravel-entity
 
 ## Usage
 
+- For creating Controller, Model, Migration, Repository use command:
+
+``` bash
+$ php artisan entity Post
+```
+
+Where Post is example.
+
+Will be created : 
+PostController - controller 
+Post - model
+PostRepository - repository 
+2019_08_12_100000_create_posts_table.php - migration
+
+- For creating Controller, Model, Migration, Repository and Factory, Seeder use command:
+
+``` bash
+$ php artisan entity Post --all
+```
+
+Where Post is example
+
+Will be created : 
+PostController - controller 
+Post - model
+PostRepository - repository 
+2019_08_12_100000_create_posts_table.php - migration
+PostsTableSeeder - seed
+PostFactory - factory
+
+- For creating just a Repository use command:
+
+``` bash
+$ php artisan entity:repository Post
+```
+
+Where Post is example
+
+Will be created : 
+PostRepository - repository 
+
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
-
-## Testing
-
-``` bash
-$ composer test
-```
 
 ## Security
 
@@ -38,12 +71,6 @@ If you discover any security related issues, please email author email instead o
 
 license. Please see the [license file](license.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/yevhenii/laravelentity.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/yevhenii/laravelentity.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/yevhenii/laravelentity/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/12345678/shield
-
 [link-packagist]: https://packagist.org/packages/yevhenii/laravel-entity
 [link-downloads]: https://packagist.org/packages/yevhenii/laravel-entity
-[link-travis]: https://travis-ci.org/yevhenii/laravelentity
 [link-author]: https://github.com/zenia9012
